@@ -8,7 +8,7 @@ package medev.jeu_dame_medev;
  *
  * @author coco
  */
-public class Pion extends Piece implements deplace {
+public class Pion extends Piece {
 
     public Pion(int color, Point2D pos) {
         super(color, pos);
